@@ -2,17 +2,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Biodata</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        .profile-card:hover {
-            transform: scale(1.05);
-            transition: transform 0.3s;
-        }
-    </style>
 </head>
 <body class="bg-gray-100">
     <header class="bg-gradient-to-r from-pink-300 to-blue-300 text-white py-4 shadow-md">
