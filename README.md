@@ -2,7 +2,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Biodata dan Materi Jaringan Komputer</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gradient-to-r from-pink-300 via-purple-300 to-blue-300 text-gray-800 h-screen overflow-y-auto">
