@@ -97,7 +97,7 @@
 
         <div class="text-center mt-5">
             <a href="https://drive.google.com" class="btn btn-secondary w-80 mt-3 hover:bg-pink-300 hover:text-white transition " target="_blank">Tutorial Membuat Hosting</a>
-            <a href="https://drive.google.com" class="btn btn-secondary w-80 mt-3 hover:bg-pink-300 hover:text-white transition " target="_blank">Tutorial Mmebuat Isi Web</a>
+            <a href="https://drive.google.com/file/d/1w7ePo8jeZp9h49mZI79SeqJ2_bGbc7pv/view?usp=sharing" class="btn btn-secondary w-80 mt-3 hover:bg-pink-300 hover:text-white transition " target="_blank">Tutorial Mmebuat Isi Web</a>
         </div>
         </main>
         
