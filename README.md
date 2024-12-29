@@ -1,9 +1,12 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biodata</title>
+    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         .profile-card:hover {
@@ -98,13 +101,15 @@
         <div class="text-center mt-5">
             <a href="https://drive.google.com" class="btn btn-secondary w-80 mt-3 hover:bg-pink-300 hover:text-white transition " target="_blank">Tutorial Membuat Hosting</a>
             <a href="https://drive.google.com/file/d/1w7ePo8jeZp9h49mZI79SeqJ2_bGbc7pv/view?usp=sharing" class="btn btn-secondary w-80 mt-3 hover:bg-pink-300 hover:text-white transition " target="_blank">Tutorial Mmebuat Isi Web</a>
+           
         </div>
-        </main>
-        
+    </main>
+
     <footer class=" bg-gradient-to-r from-pink-300 to-blue-300 text-white text-center py-3">
         <p>&copy; 2024 Feby's Web</p>
     </footer>
-    
+
+    <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
