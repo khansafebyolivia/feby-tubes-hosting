@@ -2,115 +2,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Biodata</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Tailwind CSS -->
+    <title>Biodata dan Materi Jaringan Komputer</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        .profile-card:hover {
-            transform: scale(1.05);
-            transition: transform 0.3s;
-        }
-    </style>
 </head>
-<body class="bg-gray-100">
-    <header class="bg-gradient-to-r from-pink-300 to-blue-300 text-white py-4 shadow-md">
-        <div class="container text-center">
-            <h1 class="text-4xl font-extrabold">Jaringan Kompter</h1>
-            <p class="text-lg mt-2">welcome to feb's web!!  </p>
-        </div>
-    </header>
+<body class="bg-gradient-to-r from-pink-300 via-purple-300 to-blue-300 text-gray-800 h-screen overflow-y-auto">
+    <div class="container mx-auto p-6">
+        <!-- Header -->
+        <header class="text-center mb-10">
+            <h1 class="text-4xl font-bold text-blue-700 mb-4">Biodata dan Materi Jaringan Komputer</h1>
+            <p class="text-lg text-gray-700">Informasi pribadi dan penjelasan materi jaringan komputer.</p>
+        </header>
 
-    <main class="container my-5">
-        <div class="row">
-            <!-- Profile Section -->
-            <div class="col-md-4">
-                <div class="card profile-card shadow-lg rounded-lg">
-                    <img src="./feby.jpg" class="card-img-top rounded-circle mx-auto mt-4 w-50" alt="Profile Picture">
-                    <div class="card-body text-center">
-                        <h5 class="card-title text-xl font-bold">Feby</h5>
-                        <p class="card-text text-gray-600">607012400126</p>
+        <div class="flex flex-col lg:flex-row gap-8">
+            <!-- Biodata Section -->
+            <div class="bg-white shadow-lg rounded-lg p-6 border border-blue-400 w-full lg:w-1/3">
+                <h2 class="text-2xl font-bold text-blue-600 mb-4">Biodata</h2>
+                <div class="flex flex-col items-center">
+                    <img src="https://via.placeholder.com/150" alt="Foto" class="w-32 h-32 rounded-full shadow-lg border-4 border-blue-500 mb-4">
+                    <div class="text-center">
+                        <p class="text-lg"><strong>Nama:</strong> [Nama Anda]</p>
+                        <p class="text-lg"><strong>NIM:</strong> [NIM Anda]</p>
+                        <p class="text-lg"><strong>Mata Kuliah:</strong> [Nama Mata Kuliah]</p>
                     </div>
                 </div>
             </div>
 
-            <!-- Details Section -->
-            <div class="col-md-8">
-                <div class="bg-white p-4 rounded-lg shadow-lg">
-                    <h2 class="text-3xl font-bold mb-4 text-gray-800">Detail Biodata</h2>
-                    <table class="table">
-                        <tbody>
-                            <tr>
-                                <th scope="row" class="text-gray-600">Nama Lengkap</th>
-                                <td class="text-gray-800">Khansa Feby Olivia</td>
-                            </tr>
-                            <tr>
-                                <th scope="row" class="text-gray-600">Nama Panggilan</th>
-                                <td class="text-gray-800">Feby</td>
-                            </tr>
-                            <tr>
-                                <th scope="row" class="text-gray-600">Kelas</th>
-                                <td class="text-gray-800">48-02</td>
-                            </tr>
-                            <tr>
-                                <th scope="row" class="text-gray-600">Jurusan</th>
-                                <td class="text-gray-800">D3 istem Informasi</td>
-                            </tr>
-                            <tr>
-                                <th scope="row" class="text-gray-600">Mata Kuliah</th>
-                                <td class="text-gray-800">Jaringan Komputer</td>
-                            </tr>
-                        </tbody>
-                    </table>
+            <!-- Materi Jaringan Komputer Section -->
+            <div class="bg-white shadow-lg rounded-lg p-6 border border-purple-400 w-full lg:w-2/3">
+                <h2 class="text-2xl font-bold text-purple-600 mb-4">Perantara Jaringan Komputer: Switch</h2>
+                <div class="flex flex-col lg:flex-row items-center lg:items-start">
+                    <img src="https://via.placeholder.com/150" alt="Switch" class="w-48 h-48 rounded-lg shadow-md mb-6 lg:mb-0 lg:mr-6">
+                    <div>
+                        <p class="mb-4"><strong>Fungsi:</strong> Switch adalah perangkat jaringan yang berfungsi untuk menghubungkan beberapa perangkat dalam satu jaringan lokal (LAN) dan memfasilitasi komunikasi antar perangkat tersebut.</p>
+                        <p class="mb-4"><strong>Jenis:</strong></p>
+                        <ul class="list-disc pl-5 text-purple-700 mb-4">
+                            <li>Unmanaged Switch</li>
+                            <li>Managed Switch</li>
+                            <li>Smart Switch</li>
+                        </ul>
+                        <p class="text-sm text-gray-500">Sumber: <a href="https://id.wikipedia.org/wiki/Jaringan_komputer" target="_blank" class="text-blue-500 hover:underline">Wikipedia</a></p>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <div class="row d-flex align-items-center">
-            <!-- Image Section -->
-            <div class="col-md-6 text-center">
-                <img src="./switch.jpg" alt="Profile Picture" class="rounded-lg shadow-lg w-75 mt-20">
-            </div>
-
-
-        <div class=" col-md-6">
-            <div class="bg-white p-4 rounded-lg shadow-lg mt-20 justify-center" >
-                <h2 class="text-3xl font-bold mb-4 text-black-400 text-center">Penjelasan</h2>
-                <h3 class="font-semibold text-2xl">Pengertian</h3>
-                <p class="text-gray-700 mb-4">switch adalah salah satu komponen jaringan dalam komputer yang mempunyai peran cukup penting. Di mana fungsi switch yang utama yaitu menghubungkan sejumlah perangkat komputer agar bisa melakukan pertukaran paket dan meneruskan data menuju berbagai perangkat tujuan.</p>
-                <p class="text-gray-700 mb-4">Sebetulnya, switch bisa dikategorikan sebagai jenis jaringan perangkat komputer yang menyerupai HUB. Namun baik switch dan HUB memiliki perbedaan di bagian sistem kerjanya. Switch memang dianggap lebih baik sistem kerjanya dibandingkan HUB, walaupun dari segi harganya memang lebih mahal.</p>
-                <p class="text-gray-700 mb-4">Pertukaran informasi dilakukan secara terarah, sehingga data dapat langsung diterima tanpa adanya gangguan seperti collision. Selain ada pengertian apa itu tentang switch, masih ada pendapat lain yang mengartikan switch sebagai jenis komponen pada jaringan komputer yang dipergunakan untuk menghubungkan beberapa HUB untuk membentuk jaringan komputer lebih besar serta memerlukan bandwidth yang cukup besar pula.</p>
-
-                <h2 class="text-2xl font-semibold mt-8">Fungsi</h2>
-        <ul class="list-disc ml-5 text-gray-700">
-            <li>Menyaring dan Meneruskan Paket Data</li>
-            <li>Mencatat Alamat</li>
-            <li>Looping Avoidance</li>
-        </ul>
-
-                <h3 class="text-2xl font-semibold mt-8">Jenis - Jenis Router</h3>
-                <p class="text-gray-700">1. Router Dinamis</p>
-                <p class="text-gray-700">2. Router Statik</p>
-                <p class="text-gray-700">3. Router PC.</p>
-                <P class="text-gray-700">4. Router Aplikasi</P>
-
-                <p class="text-center text-blue-800">sumber materi : gramedia</p>
+        <!-- Links Section -->
+        <div class="bg-white shadow-lg rounded-lg p-6 border border-pink-400 mt-10">
+            <h2 class="text-2xl font-bold text-pink-600 mb-4">Tutorial dan Referensi</h2>
+            <div class="flex flex-col lg:flex-row justify-around">
+                <a href="https://www.hostingadvice.com/how-to/" target="_blank" class="text-blue-500 hover:underline">Tutorial Hosting</a>
+                <a href="https://www.w3schools.com/" target="_blank" class="text-blue-500 hover:underline">Tutorial Pembuatan Website</a>
             </div>
         </div>
-
-        <div class="text-center mt-5">
-            <a href="https://drive.google.com" class="btn btn-secondary w-80 mt-3 hover:bg-pink-300 hover:text-white transition " target="_blank">Tutorial Membuat Hosting</a>
-            <a href="https://drive.google.com/file/d/1w7ePo8jeZp9h49mZI79SeqJ2_bGbc7pv/view?usp=sharing" class="btn btn-secondary w-80 mt-3 hover:bg-pink-300 hover:text-white transition " target="_blank">Tutorial Mmebuat Isi Web</a>
-           
-        </div>
-    </main>
-
-    <footer class=" bg-gradient-to-r from-pink-300 to-blue-300 text-white text-center py-3">
-        <p>&copy; 2024 Feby's Web</p>
-    </footer>
-
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    </div>
 </body>
 </html>
