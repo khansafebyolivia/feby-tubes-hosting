@@ -3,9 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biodata</title>
-    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         .profile-card:hover {
@@ -21,10 +19,9 @@
             <p class="text-lg mt-2">welcome to feb's web!!  </p>
         </div>
     </header>
-
     <main class="container my-5">
         <div class="row">
-            <!-- Profile Section -->
+           
             <div class="col-md-4">
                 <div class="card profile-card shadow-lg rounded-lg">
                     <img src="./feby.jpg" class="card-img-top rounded-circle mx-auto mt-4 w-50" alt="Profile Picture">
