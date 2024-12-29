@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -95,6 +94,8 @@
                 <p class="text-gray-700">2. Router Statik</p>
                 <p class="text-gray-700">3. Router PC.</p>
                 <P class="text-gray-700">4. Router Aplikasi</P>
+
+                <p class="text-center text-blue-800">sumber materi : gramedia</p>
             </div>
         </div>
 
